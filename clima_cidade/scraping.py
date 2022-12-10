@@ -6,7 +6,7 @@ html = req.get('https://www.climatempo.com.br/previsao-do-tempo/cidade/271/curit
 
 soup = bs4(html, 'html.parser')
 
-# coletando a temperatura minima
+# coletando temperaturas e resumo sobre o clima
 print('Temperatura em Curitiba:')
 tempMin = soup.find(id='min-temp-1')
 print(f'minima de {tempMin.text}')
