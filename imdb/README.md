@@ -1,2 +1,2 @@
-# machine_learning
- Encontra-se neste repositório alguns códigos referente a Machine Learning e IA com a Linguagem Python.
+<h1>IMDB Scraping</h1>
+<p>Coletando informações dos 250 filmes mais bem avaliados do site IMDB.</p>
